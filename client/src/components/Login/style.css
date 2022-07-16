@@ -1,0 +1,138 @@
+
+.boxLogin{
+    
+    display: flex;
+    width: 40.625rem;
+    height: 40.625rem;
+    background-color: var(--box-collors);
+
+    /* justify-content: space-evenly; */
+    align-items: center;
+
+    flex-direction: column;
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 1.25rem;
+}
+
+
+
+.hand-craft-img{
+    margin-left: 82%;
+    margin-bottom: -0.4rem;
+    width: 5.938rem;
+    height: 5.938rem;
+}
+
+
+.form-field-input  {
+    width: 35.313rem;
+    height: 4.375rem;
+
+    font-family: var(--font-main);
+    font-size: 1.5rem;
+    color: var(--collor-font);
+}
+
+.header-form{
+    /* position: absolute; */
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-bottom: 2.5rem;
+}
+
+.img-icone-user{
+    width: 5.313rem;
+    height: 4.375rem;
+}
+
+.header-form > img{
+    margin-bottom: 0.813rem ;
+}
+
+.login-form-group{
+    display: flex;
+    width: 100%;
+    height: 18.75rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.form-field-input{
+    border: 2px solid;
+    border-color: var(--collor-font);
+    border-radius: 0.375rem;
+    color: var(--collor-black);
+
+    text-indent: 1.25rem;
+}
+.form-input{
+    height: 5.625rem;
+}
+
+.form-input:nth-child(1){
+    margin-bottom: 1.563rem;
+}
+
+.form-field-input::placeholder {
+    text-indent: 1.25rem;
+    color: var(--collor-font);
+}
+
+.form-error{
+    margin-top: 0.2rem;
+    color: var(--collor-font);
+}
+
+.button-form-login{
+    margin-top: 2rem;
+    width: 21.563rem;
+    height: 3.75rem;
+
+    border-radius: 0.625rem;
+    border: none;
+
+    background-color: var(--body-collor);
+
+    font-weight: bold;
+    font-family: var(--font-main);
+    font-size: 1.5rem;
+    color: var(--box-collors);
+    opacity: 0.9;
+}
+
+.button-form-login:hover{
+    opacity: 1;
+}
+
+.content-register{
+    width: 100%;
+    height: 3rem;
+
+    padding-bottom: 1.25rem;
+    padding-left: 2.188rem;
+    padding-right: 2.188rem;
+
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+
+    font-family: var(--font-main);
+    font-weight: bold;
+    color: var(--collor-font);
+}
+
+.content-register > p:hover{
+    transition: 0.3s;
+    color:var(--collor-black);
+}
