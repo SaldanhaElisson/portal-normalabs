@@ -17,7 +17,7 @@ export const FieldLogin = ({ validationInput }) => {
 
                 <div className="header-form">
                     <img src={userImg} alt="imagem-icone-usario" className="img-icone-user" />
-                    <h1>Seja Bem Vindo</h1>
+                    <h1>Seja Bem Vindo a <spam> EliLab </spam></h1>
                 </div>
 
                 <Formik
@@ -27,8 +27,8 @@ export const FieldLogin = ({ validationInput }) => {
                 >
                     <>
                         <div className="form-group" id="login-form-group">
-                            <div className="form-input">
-                                <Field name="email" className="form-field-input " placeholder="Email" type="email" />
+                            <div className="form-input" id="input-1">
+                                <Field name="email" className="form-field-input "  placeholder="Email" type="email" />
                                 <ErrorMessage
                                     component="p"
                                     name="email"

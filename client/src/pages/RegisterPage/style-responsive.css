@@ -1,0 +1,15 @@
+@media screen and (max-width: 800px){
+
+    .box.register{
+        width: 100%;
+        height: 100%;
+
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .button-form.bnt-register{
+       margin-bottom: 1.5rem;
+    }
+}
+

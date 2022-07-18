@@ -1,5 +1,6 @@
 import { Formik, Form, Field, ErrorMessage } from "formik"
 import './style.css'
+import './style-responsive.css'
 
 import iconHandcrafts from "../../assets/img/undraw_handcrafts_growing.svg"
 
@@ -13,7 +14,7 @@ export const FieldRegister = ({ validationInput }) => {
             <div className="box register">
 
                 <div className="header-form">
-                    <h1>Cadastra-se</h1>
+                    <h1>Cadastra-se na <spam>EliLab</spam></h1>
                 </div>
 
                 <Formik

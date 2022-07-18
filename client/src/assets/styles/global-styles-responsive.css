@@ -1,4 +1,8 @@
 @media screen and (max-width: 800px){
+
+    h1{
+        font-size: 28px;
+    }
     .contentField{
         width: 100%;
         height: 100%;
@@ -21,6 +25,7 @@
     
     .form-input{
         width: 80%;
+        height: 80%;
         align-items: center;    
     }
     

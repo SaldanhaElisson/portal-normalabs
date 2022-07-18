@@ -26,6 +26,10 @@ p{
     font-family: var(--font-main);
 }
 
+spam{
+    color: var(--body-collor);
+}
+
 .homePages{
     width: 100vw;
     height: 100vh;
