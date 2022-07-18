@@ -1,17 +1,19 @@
 import { Formik, Form, Field, ErrorMessage } from "formik"
 import './style.css'
+import './style-responsive.css'
+
+
 import userImg from "../../assets/img/undraw_handcrafts_user.svg"
 import iconHandcrafts from "../../assets/img/undraw_handcrafts_growing.svg"
 
-export const FieldLogin = ({ validationLogin }) => {
+export const FieldLogin = ({ validationInput }) => {
     return (
 
-        <div className="contentFielLogin">
+        <div className="contentField">
 
-  
             <img src={iconHandcrafts} alt="imagem-icone-grafico" className="hand-craft-img" />
     
-            <div className="boxLogin">
+            <div className="box login">
 
                 <div className="header-form">
                     <img src={userImg} alt="imagem-icone-usario" className="img-icone-user" />
@@ -21,10 +23,10 @@ export const FieldLogin = ({ validationLogin }) => {
                 <Formik
                     initialValues={{}}
                     className="form-login"
-                    validationSchema={validationLogin}
+                    validationSchema={validationInput}
                 >
                     <>
-                        <div className="login-form-group">
+                        <div className="form-group" id="login-form-group">
                             <div className="form-input">
                                 <Field name="email" className="form-field-input " placeholder="Email" type="email" />
                                 <ErrorMessage
@@ -41,9 +43,8 @@ export const FieldLogin = ({ validationLogin }) => {
                                     className="form-error"
                                 />
                             </div>
-                            <div className="buttonDiv">
-                                <button className="button-form-login" type="submit"> Login </button>
-                            </div>
+
+                                <button className="button-form" type="submit"> Login </button>
 
                         </div>
                         <div className="content-register">

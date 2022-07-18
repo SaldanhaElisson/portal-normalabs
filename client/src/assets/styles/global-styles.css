@@ -34,3 +34,38 @@ p{
     justify-content: center;
     align-items: center;
 }
+
+.box{
+    
+    display: flex;
+   
+    background-color: var(--box-collors);
+
+    align-items: center;
+
+    flex-direction: column;
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 1.25rem;
+}
+
+.button-form {
+    margin-top: 2rem;
+    width: 21.563rem;
+    height: 3.75rem;
+
+    border-radius: 0.625rem;
+    border: none;
+
+    background-color: var(--body-collor);
+
+    font-weight: bold;
+    font-family: var(--font-main);
+    font-size: 1.5rem;
+    color: var(--box-collors);
+    opacity: 0.9;
+}
+
+.button-form:hover{
+    opacity: 1;
+}

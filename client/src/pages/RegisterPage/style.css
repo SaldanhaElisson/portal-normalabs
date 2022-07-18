@@ -1,0 +1,42 @@
+.box{
+    width: 40.625rem;
+    height: 50rem;
+
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-register-group{
+    display: flex;
+    width: 100%;
+    height: 18.75rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-input:nth-child(1){
+    margin-bottom: 0rem;
+}
+
+.cpf::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.data{
+    text-indent: 0.8rem;
+    color: var(--collor-font);
+}
+
+.form-error{
+    margin-top: 0rem;
+    color: var(--collor-font);
+}
+
+.button-form.bnt-register{
+    width: 9.688rem;
+    align-self: center;
+}

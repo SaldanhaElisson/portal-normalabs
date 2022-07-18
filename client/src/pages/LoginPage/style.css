@@ -1,37 +1,14 @@
 
-.boxLogin{
-    
-    display: flex;
+.login{
     width: 40.625rem;
     height: 40.625rem;
-    background-color: var(--box-collors);
-
-    /* justify-content: space-evenly; */
-    align-items: center;
-
-    flex-direction: column;
-    
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 1.25rem;
 }
-
-
 
 .hand-craft-img{
     margin-left: 82%;
     margin-bottom: -0.4rem;
     width: 5.938rem;
     height: 5.938rem;
-}
-
-
-.form-field-input  {
-    width: 35.313rem;
-    height: 4.375rem;
-
-    font-family: var(--font-main);
-    font-size: 1.5rem;
-    color: var(--collor-font);
 }
 
 .header-form{
@@ -56,7 +33,7 @@
     margin-bottom: 0.813rem ;
 }
 
-.login-form-group{
+#login-form-group{
     display: flex;
     width: 100%;
     height: 18.75rem;
@@ -66,20 +43,29 @@
    
 }
 
-.form-field-input{
-    border: 2px solid;
-    border-color: var(--collor-font);
-    border-radius: 0.375rem;
-    color: var(--collor-black);
 
-    text-indent: 1.25rem;
-}
 .form-input{
     height: 5.625rem;
 }
 
 .form-input:nth-child(1){
     margin-bottom: 1.563rem;
+}
+
+
+.form-field-input{
+    border: 2px solid;
+    border-color: var(--collor-font);
+    border-radius: 0.375rem;
+    color: var(--collor-black);
+
+    width: 35.313rem;
+    height: 4.375rem;
+
+    font-family: var(--font-main);
+    font-size: 1.5rem;
+
+    text-indent: 1.25rem;
 }
 
 .form-field-input::placeholder {
@@ -90,27 +76,6 @@
 .form-error{
     margin-top: 0.2rem;
     color: var(--collor-font);
-}
-
-.button-form-login{
-    margin-top: 2rem;
-    width: 21.563rem;
-    height: 3.75rem;
-
-    border-radius: 0.625rem;
-    border: none;
-
-    background-color: var(--body-collor);
-
-    font-weight: bold;
-    font-family: var(--font-main);
-    font-size: 1.5rem;
-    color: var(--box-collors);
-    opacity: 0.9;
-}
-
-.button-form-login:hover{
-    opacity: 1;
 }
 
 .content-register{
