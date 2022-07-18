@@ -10,7 +10,7 @@ export const FieldRegister = ({ validationInput }) => {
 
             <img src={iconHandcrafts} alt="imagem-icone-grafico" className="hand-craft-img" />
     
-            <div className="box">
+            <div className="box register">
 
                 <div className="header-form">
                     <h1>Cadastra-se</h1>

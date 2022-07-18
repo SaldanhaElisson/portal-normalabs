@@ -1,17 +1,16 @@
-.box{
+.box.register{
     width: 40.625rem;
     height: 50rem;
 
     display: flex;
     flex-direction: column  ;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 
 #form-register-group{
     display: flex;
     width: 100%;
-    height: 18.75rem;
     flex-direction: column;
     align-items: center;
 }
@@ -38,5 +37,8 @@
 
 .button-form.bnt-register{
     width: 9.688rem;
+    height: 3.75rem;
+
+
     align-self: center;
 }
