@@ -1,5 +1,7 @@
 import { Formik, Form, Field, ErrorMessage } from "formik"
 import { validationInput } from "../../utils/validationInput.js"
+import {handleRegister} from "../../utils/handles"
+
 
 import './style.css'
 import './style-responsive.css'
@@ -23,8 +25,11 @@ export const FieldRegister = () => {
                         initialValues={{}}
                         className="form-register"
                         validationSchema={validationInput}
+                        onSubmit ={handleRegister}
+
                     >
-                        <>
+                        <Form>
+
                             <div className="form-group" id="form-register-group">
                                 <div className="form-input">
                                     <Field name="nome" className="form-field-input " placeholder="Nome Completo" />
@@ -36,7 +41,7 @@ export const FieldRegister = () => {
                                 </div>
 
                                 <div className="form-input">
-                                    <Field name="cpf" className="form-field-input cpf" placeholder="CPF" type="number" />
+                                    <Field name="cpf" className="form-field-input cpf" placeholder="CPF" type="number"  />
                                     <ErrorMessage
                                         component="p"
                                         name="cpf"
@@ -54,7 +59,7 @@ export const FieldRegister = () => {
                                 </div>
 
                                 <div className="form-input">
-                                    <Field name="email" className="form-field-input " placeholder="Email" type="email" />
+                                    <Field name="email" className="form-field-input " placeholder="Email" type="email"  />
                                     <ErrorMessage
                                         component="p"
                                         name="email"
@@ -72,16 +77,16 @@ export const FieldRegister = () => {
                                 </div>
 
                                 <div className="form-input">
-                                    <Field name="foto" className="form-field-input " placeholder="Carregar Foto de Perfil..." />
+                                    <Field name="urlImg" className="form-field-input " placeholder="Carregar Foto de Perfil..." />
                                     <ErrorMessage
                                         component="p"
-                                        name="email"
+                                        name="urlImg"
                                         className="form-error"
                                     />
                                 </div>
                                 <button className="button-form bnt-register" type="submit"> Cadastrar </button>
                             </div>
-                        </>
+                            </Form>
                     </Formik>
 
                 </div>

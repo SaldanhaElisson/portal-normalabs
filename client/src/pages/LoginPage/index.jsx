@@ -1,12 +1,11 @@
 import { Formik, Form, Field, ErrorMessage } from "formik"
 import { validationInput } from "../../utils/validationInput.js"
-
+// import {handleLogin} from "../../utils/handles"
 
 import './style.css'
 import './style-responsive.css'
 import userImg from "../../assets/img/undraw_handcrafts_user.svg"
 import iconHandcrafts from "../../assets/img/undraw_handcrafts_growing.svg"
-import { Outlet } from "react-router-dom"
 
 export const FieldLogin = () => {
     return (
