@@ -17,6 +17,9 @@ export const FieldLogin = () => {
 
     let navigate = useNavigate();
 
+    const clearUser = () =>{
+        setUser(null);
+    }
 
     useEffect(() => {
         if (user) {
@@ -24,6 +27,9 @@ export const FieldLogin = () => {
         }
     },[user, navigate])
 
+    useEffect(() => {
+        clearUser()
+    },[])
 
     const handleUser = async (values) =>{
         const userLogin = await handleLogin(values) ;
@@ -32,7 +38,6 @@ export const FieldLogin = () => {
 
     return (
         <div className="homePages">
-            
             <div className="contentField">
                 <img src={iconHandcrafts} alt="imagem-icone-grafico" className="hand-craft-img" />
 

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Roboto:wght@100;300;400&display=swap');
 
 *{
     padding: 0;
@@ -8,8 +8,10 @@
 
 :root{
     --body-collor: #598BED;
-    --font-main: "Open Sans", "sans-serif";
+    --font-Roboto: "Roboto", sans-serif;
+    --font-main: "Open Sans", sans-serif;
     --box-collors: #F5F5F5;
+    --collor-darkBlue: #476DBA;
     --collor-font: #C3C6C5;
     --collor-black: #0A0908;
 }

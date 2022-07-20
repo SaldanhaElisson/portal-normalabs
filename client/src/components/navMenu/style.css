@@ -1,0 +1,44 @@
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 26.25rem;
+
+  font-family: var(--font-Roboto);
+
+  margin-top: 2.188rem;
+}
+
+.navHomePages{
+
+  margin-left: 2.1882rem;
+  font-weight: lighter;
+  color: #ffff; 
+
+  width: 10rem;
+  height: 2.25rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  font-family: var(--);
+}
+
+.navHomePages:hover{
+  text-decoration: none;
+  font-family: var(--);
+  color: #ffff;
+}
+
+.navHomePages:visited{
+  text-decoration: none;
+
+  color: #ffff;
+}
+
+.navHomePages:hover{
+  background-color: var(--collor-darkBlue);
+}
+

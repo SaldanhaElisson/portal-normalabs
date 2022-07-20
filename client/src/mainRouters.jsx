@@ -21,7 +21,7 @@ export const MainRouters = () =>{
      <DateContext>
         <Routes>
                 <>
-                        <Route index path="/" element={<FieldLogin />} />
+                        <Route path="/" element={<FieldLogin />} />
                         <Route path="register" element={<FieldRegister />} />
                         <Route
                         path="home"

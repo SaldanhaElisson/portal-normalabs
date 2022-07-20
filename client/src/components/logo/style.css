@@ -1,0 +1,25 @@
+.boxLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 12.5rem;
+  height: 6.563rem;
+  border-radius: 1.25rem;
+
+  flex-direction: row-reverse;
+  background-color: #ffff;
+}
+
+.texLogo {
+  font-family: "Open Sans ", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+
+  color: #598bed;
+}
+
+.imgLogo {
+  width: 5.313rem;
+  height: 4.375rem;
+}

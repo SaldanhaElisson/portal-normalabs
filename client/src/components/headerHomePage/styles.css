@@ -1,0 +1,33 @@
+.headerHome {
+  width: 100%;
+  height: 15.938rem;
+}
+
+.contentLog {
+  display: flex;
+  justify-content: center;
+  padding: 0.75rem;
+}
+
+
+
+.bemVindo {
+  font-family: var(--font-Roboto);
+  font-weight: lighter;
+  margin-top: 1.875rem;
+  margin-left: 1.25rem;
+
+  font-size: 2.188rem;
+
+  color: #ffffff;
+}
+
+.lineBlue{
+  width: 70.1%  ;
+  height: 0.188rem;
+
+  margin-left: 1.25rem; 
+  
+
+  background-color: var(--collor-darkBlue);  
+}
