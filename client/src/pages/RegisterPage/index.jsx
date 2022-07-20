@@ -26,11 +26,9 @@ export const FieldRegister = () => {
                         className="form-register"
                         validationSchema={validationInput}
                         onSubmit ={handleRegister}
-
                     >
-                        <Form>
+                        <Form className="form-group" id="form-register-group">
 
-                            <div className="form-group" id="form-register-group">
                                 <div className="form-input">
                                     <Field name="nome" className="form-field-input " placeholder="Nome Completo" />
                                     <ErrorMessage
@@ -85,7 +83,6 @@ export const FieldRegister = () => {
                                     />
                                 </div>
                                 <button className="button-form bnt-register" type="submit"> Cadastrar </button>
-                            </div>
                             </Form>
                     </Formik>
 
