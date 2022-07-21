@@ -12,8 +12,8 @@ const initDb = {
             nome TEXT,
             email TEXT,
             senha TEXT,
-            cpf INT,
-            data TEXT,
+            telefone INT,
+            cargo TEXT,
             urlImg  TEXT
             )`);
 

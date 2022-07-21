@@ -1,13 +1,26 @@
-import {useContext} from "react"
-import {GlobalContext} from "../../context/index.jsx"
-import {HeaderHomePage} from "../../components/headerHomePage"
+import { useContext, useEffect } from "react"
+import { GlobalContext } from "../../context/index.jsx"
+import { HeaderHomePage } from "../../components/headerHomePage"
+import { Outlet, Link } from "react-router-dom";
 
-export const HomeUserPage = () =>{
+import "./style.css"
+
+export const HomeUserPage = () => {
     const TheContext = useContext(GlobalContext);
-    const {user, setUser} = TheContext;
+    const { user, setUser } = TheContext;
 
-    return(
-        <HeaderHomePage />
-        
+
+    useEffect(() => {
+        const localDateUser = JSON.parse(localStorage.getItem("dateUser"))
+        setUser(localDateUser)
+    }, [])
+
+    return (
+        <div className="MainhomePage">
+            <HeaderHomePage />
+            <div className="pages">
+                <Outlet />
+            </div>
+        </div>
     )
 }

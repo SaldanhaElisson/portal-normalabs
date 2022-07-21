@@ -1,1 +1,1 @@
-export const UserGlobal = null
+export const UserGlobal = { }

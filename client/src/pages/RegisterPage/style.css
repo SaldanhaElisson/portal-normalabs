@@ -19,11 +19,10 @@
     margin-bottom: 0rem;
 }
 
-.cpf::-webkit-inner-spin-button {
+.telefone::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
-
 
 .data{
     text-indent: 0.8rem;
@@ -38,7 +37,6 @@
 .button-form.bnt-register{
     width: 9.688rem;
     height: 3.75rem;
-
 
     align-self: center;
 }

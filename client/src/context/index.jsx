@@ -1,4 +1,5 @@
-import { createContext, useState } from "react";
+import { createContext, useState, useEffect } from "react";
+import { handleHomePage } from "../utils/handles";
 import { UserGlobal } from "./dataUser"
 
 export const GlobalContext = createContext();
