@@ -88,9 +88,8 @@ export const handleLoggin = async (values, tolken) => {
 
 export const handleHomePage = async (values) => {
 
-    let isToken = await localStorage.getItem("token");
+    let isToken = localStorage.getItem("token");
     let userLogged
-
     if (isToken) {
         try {
             userLogged = await goHomePage(isToken);
@@ -100,6 +99,7 @@ export const handleHomePage = async (values) => {
 
     } else {
 
+        console.log("123", isToken)
         // // criar sessão e depois ir para home page
         try {
             userLogged = await handleLoggin(values, isToken)
