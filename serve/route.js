@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 
 const userController = require('./controllers/userController');
-const {auth} = require("./controllers/auth.js");
+const {auth} = require("./middlewares/auth");
 const {isAuthenticated} = require("./controllers/isAtuhenticade");
 
 const Router= express.Router()
