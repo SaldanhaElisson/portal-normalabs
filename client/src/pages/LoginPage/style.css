@@ -90,7 +90,9 @@
     position: absolute;
     bottom: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+
+
 
     font-family: var(--font-main);
     font-weight: bold;
@@ -100,4 +102,8 @@
 .content-register > p:hover{
     transition: 0.3s;
     color:var(--collor-black);
+}
+
+.goRegister{
+    cursor: pointer;
 }

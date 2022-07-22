@@ -2,5 +2,29 @@
     width: 69.4%;
     height: 100%;
 
-    background-color: black;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    padding: 1.25rem;
+
+
+}
+
+.bntCrachaPages{
+    width: 15.938rem;
+    height: 3.75rem;
+
+    background-color: #fff;
+    color: var(--body-collor);
+
+    font-size:1.5rem ;
+    font-family: var(--font-main);
+    font-weight: bold;
+
+    border-radius: 0.625rem;
+
+    border: none;
+    margin-top: 1.25rem;
+
 }

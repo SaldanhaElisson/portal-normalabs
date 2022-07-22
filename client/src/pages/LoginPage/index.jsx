@@ -15,11 +15,18 @@ export const FieldLogin = () => {
     const TheContext = useContext(GlobalContext);
     const { user, setUser } = TheContext;
 
+    let navigate = useNavigate();
+
     const clearUser = () => {
         setUser(null);
     }
 
-    let navigate = useNavigate();
+
+    const goRegister = () =>{
+        navigate("./register")
+        console.log("clicado")
+    }
+
 
     useEffect(() => {
         clearUser();
@@ -73,10 +80,8 @@ export const FieldLogin = () => {
 
                             <button className="button-form" type="submit"> Login </button>
 
-                            <div className="content-register">
-                                <p>Esqueceu a senha ?</p>
-                                {/* <a href="/register">Não é cadastrado?Faça agora</a> */}
-                                <p>Não é cadastrado?Faça agora</p>
+                            <div className="content-register" onClick={goRegister} >
+                                <p className="goRegister"  >Esqueceu a senha ?</p>
                             </div>
                         </Form>
                     </Formik>

@@ -11,6 +11,7 @@ import { HomeUserPage } from "./pages/homeUserPage/index"
 import { DateContext } from "./context/index"
 import { ProtectedRoute } from "./utils/protecRouter";
 import { CracharUser } from "./pages/crachaUserPage"
+import { CrachaFrente } from "./components/crachaFrente/index.jsx";
 
 import './assets/styles/global-styles.css'
 import './assets/styles/global-styles-responsive.css'
@@ -32,7 +33,6 @@ export const MainRouters = () => {
                 </ProtectedRoute>
               }>
               <Route path="crachar" element={<CracharUser />} />
-              {/* <Route path="teste2" element={<Teste2 />} />   */}
             </Route>
           </>
         </Routes>

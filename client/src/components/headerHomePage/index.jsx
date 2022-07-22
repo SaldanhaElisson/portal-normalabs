@@ -1,4 +1,6 @@
 import "./styles.css";
+import "./style-responsive.css"
+
 import { LogoEliLab } from "../logo";
 import { NavHomePage } from "../navMenu";
 import {useContext} from "react"
