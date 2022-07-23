@@ -4,7 +4,6 @@ import "./style-responsive.css"
 import {extrato, downloadExtrato, gerarPDF} from "../../reports/ExtratosFuncionarios"
 import { useEffect, useContext } from "react"
 import { GlobalContext } from "../../context/index.jsx"
-import pdfMake from "pdfmake/build/pdfmake.js"
 
 
 export const ExtratoDocument = () =>{
@@ -12,17 +11,19 @@ export const ExtratoDocument = () =>{
     const TheContext = useContext(GlobalContext);
     const { user, setUser } = TheContext;
 
+    const extratoUser = extrato(user)
+
     useEffect(() => {
-       gerarPDF(extrato())
-    }, [])
+       gerarPDF(extratoUser)
+    }, [extratoUser])
 
 
     return(
         <div className="pdf ">
             <div id="iframeContainer">
-                <iframe src="" frameborder="0" id="iframePDF"></iframe>
+                <iframe src="" id="iframePDF"></iframe>
             </div>
-            <button className="button-form extrato" onClick={() => {downloadExtrato(extrato())}}>Baixar PDF</button>
+            <button className="button-form extrato" onClick={() => {downloadExtrato(extratoUser)}}>Baixar PDF</button>
         </div>
     )
 }

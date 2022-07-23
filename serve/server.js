@@ -12,5 +12,5 @@ server.use(express.urlencoded({extended: true})) // hablitando o middlware
 server.use(route);
 
 server.listen(3007, () => {
-    console.log('Autobots bora Rodar!')
+    console.log('Servidor rodando na porta 3007...')
 })
