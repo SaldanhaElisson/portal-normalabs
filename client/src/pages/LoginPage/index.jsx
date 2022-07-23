@@ -35,11 +35,14 @@ export const FieldLogin = () => {
 
     const handleUser = async (values) => {
         const userLogin = await handleHomePage(values);
+
         let DateLocalStorage = {};
         if (userLogin) {
             DateLocalStorage = localStorage.getItem("dateUser")
         }
         setUser(DateLocalStorage)
+
+        
         navigate('/home');
     }
 
@@ -81,7 +84,7 @@ export const FieldLogin = () => {
                             <button className="button-form" type="submit"> Login </button>
 
                             <div className="content-register" onClick={goRegister} >
-                                <p className="goRegister"  >Esqueceu a senha ?</p>
+                                <p className="goRegister"  >Cadastra-se</p>
                             </div>
                         </Form>
                     </Formik>

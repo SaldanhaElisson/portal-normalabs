@@ -33,12 +33,12 @@ module.exports = {
                 })
           
             }else{
-                console.log("senha icorreta");
+                console.log("senha incorreta");
                 res.send("senha")
             }
        
         } else {
-            console.log("senha ou email incorreto");
+            console.log("email incorreto");
             res.send("email")
         }
     },

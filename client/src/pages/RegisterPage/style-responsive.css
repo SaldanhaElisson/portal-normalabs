@@ -10,7 +10,21 @@
     
     .button-form.bnt-register{
        margin-bottom: 1.5rem;
-       margin-top: -1rem;
+       margin-top: 1rem;
+
+       width: 8.688rem;
+       height: 2.75;
     }
+
+    .form-field-input{
+        height: 3.5rem;
+        font-size: 1rem;
+    }
+
+    .form-input {
+        height: 4.625rem;
+    }
+
+
 }
 
