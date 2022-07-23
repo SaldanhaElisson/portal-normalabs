@@ -3,5 +3,16 @@
  .pageCrachar{
      width: 100%;
  }
-
 }
+
+@media screen and (max-width: 450px){
+  
+    .pageCrachar{
+        width: 100%;
+    }
+
+    .bntCrachaPages{
+        width: 8.938rem;
+    }
+    
+   }

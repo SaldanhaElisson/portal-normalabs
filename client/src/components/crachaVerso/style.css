@@ -1,0 +1,98 @@
+.contentInfo.verso{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 1.25rem;
+}
+
+.ContentInfoUser{
+    font-size: 0.875rem;
+    font-weight: 500;
+
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem ;
+    padding-bottom: 0.3rem;
+
+    width: 88.8%;
+    height: 2.8rem;
+
+    border-radius: 0.5rem;
+    border: 2px solid var(--body-collor);
+
+}
+
+.titleInfoUser{
+    color: var(--body-collor);
+}
+
+.UserDate{
+    margin-left: 0.8rem;
+}
+
+.contentTelefoneId{
+    display: flex;
+    width: 88.8%;
+}
+
+.crachaId{
+    align-self: flex-end;
+
+    font-weight: bold;
+    font-size: 0.875rem;
+
+    margin-right: 1rem;
+    margin-top: 0.3rem;
+}
+
+.ContentInfoUser.telefone{
+    width: 35.25rem;
+}
+
+.ContentInfoUser.id{
+    width: 5rem;
+    margin-left: 1.25rem;
+}
+
+.AvisosCracha{
+    width: 88.8%;;
+    height: 7rem;   
+
+    font-size: 0.875rem;
+    border-radius: 5px;
+
+
+    border: 2px solid var(--body-collor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleInfoUser.avisoTitle{
+  
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+    color: var(--body-collor);
+    
+    font-size: 0.875rem;
+
+    margin-top: 0.25rem;
+    margin-left: 0.5rem;
+
+    font-weight: bold;
+    font-family: var(--font-main);
+  }
+  
+  li{
+      margin-bottom: 0.3rem;
+  }

@@ -1,4 +1,5 @@
 import "./style.css"
+import "./style-responsive.css"
 
 import { useContext } from "react"
 import { GlobalContext } from "../../context/index.jsx"
@@ -13,7 +14,7 @@ export const CrachaFrente = () => {
                 <LogoEliLab id="logoCracha" />
             </div>
             <div className="contentInfo" >
-                <object data={" "} type="image/png" className="imgUserCracha">
+                <object data={user.urlImg} type="image/png" className="imgUserCracha">
                   <div className="imgUserCracha"></div>
                 </object>
                 <p className="tileName">{user.nome}</p>

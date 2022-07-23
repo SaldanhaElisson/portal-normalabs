@@ -1,4 +1,6 @@
 import "./style.css";
+import "./style-responsive.css"
+
 import logoImg from "../../assets/img/undraw_handcrafts_user.svg";
 
 export const LogoEliLab = () => {

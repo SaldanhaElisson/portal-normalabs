@@ -24,8 +24,7 @@ export const CracharUser = () => {
             { frenteVerso && <CrachaVerso />}
             { !frenteVerso && <CrachaFrente />}
 
-
-        <button onClick={Girar} className="bntCrachaPages"> Girar </button>
+        <button onClick={Girar} className="bntCrachaPages "> Girar </button>
         </div>
     )
 }

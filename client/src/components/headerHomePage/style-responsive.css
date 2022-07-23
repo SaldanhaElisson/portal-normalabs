@@ -3,3 +3,14 @@
         font-size: 1.52rem;
     }
 }
+
+@media screen and (max-width: 500px){
+    .bemVindo{
+        font-size: 1.2rem;
+        margin-top: 0.875rem;
+    }
+
+    .headerHome{
+        height: 13rem;
+    }
+}

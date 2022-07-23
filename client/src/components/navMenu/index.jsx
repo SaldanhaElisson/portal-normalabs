@@ -2,7 +2,9 @@ import { Outlet, Link, useNavigate } from "react-router-dom";
 import {useContext} from "react"
 import {GlobalContext} from "../../context/index.jsx"
 import { logout } from "../../utils/handles";
+
 import "./style.css";
+import "./style-responsive.css"
 
 
 export const NavHomePage = () => {
@@ -29,9 +31,9 @@ export const NavHomePage = () => {
           <p className="fontNav"> Extrato</p>
          
         </Link>
-        <Link to="/serviceDesk" className={"navHomePages"}>
+        {/* <Link to="/serviceDesk" className={"navHomePages"}>
           <p className ="fontNav"> ServiceDesk</p>
-        </Link>
+        </Link> */}
 
       <div className="navHomePages" onClick={clicado}>
           <p className="fontNav logout"> Logout</p>

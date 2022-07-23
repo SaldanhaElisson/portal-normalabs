@@ -1,0 +1,16 @@
+@media screen and (max-width: 450px){
+   
+    .boxLogo{
+        height: 4rem;
+    }
+
+  .texLogo{
+      font-size: 1.5rem;
+  }
+
+  .imgLogo{
+    width: 3.313rem;
+    height: 3.375rem;
+  }
+    
+}

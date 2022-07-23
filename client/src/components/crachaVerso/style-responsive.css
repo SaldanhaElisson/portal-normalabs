@@ -1,0 +1,30 @@
+@media screen and (max-width: 450px){
+   
+    .titleInfoUser{
+        font-size: 0.8rem;
+    }
+
+    .UserDate{
+        font-size: 0.7rem;
+    }
+    
+    ul{
+        font-size: 0.7rem;
+    }
+
+    .ContentInfoUser{
+        padding-bottom: 0;
+        height: 2.4rem;
+
+    }
+
+    .titleInfoUser.avisoTitle{
+        margin-top: 0;
+    }
+
+    .AvisosCracha{
+        height: 6rem;
+        margin-bottom: 1rem;
+    }
+
+}

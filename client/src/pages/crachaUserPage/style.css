@@ -8,10 +8,10 @@
     flex-direction: column;
     padding: 1.25rem;
 
-
 }
 
 .bntCrachaPages{
+    cursor: pointer;
     width: 15.938rem;
     height: 3.75rem;
 
@@ -27,4 +27,10 @@
     border: none;
     margin-top: 1.25rem;
 
+    opacity: 0.9;
+    transition: 3ms;
+}
+
+.bntCrachaPages:hover{
+    opacity: 1;
 }
