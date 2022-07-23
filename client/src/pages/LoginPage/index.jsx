@@ -84,7 +84,7 @@ export const FieldLogin = () => {
                             <button className="button-form" type="submit"> Login </button>
 
                             <div className="content-register" onClick={goRegister} >
-                                <p className="goRegister"  >Cadastra-se</p>
+                                <p className="goRegister"  >Cadastre-se</p>
                             </div>
                         </Form>
                     </Formik>
