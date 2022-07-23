@@ -12,11 +12,10 @@ module.exports ={
         const db = await Database()
         const email = req["tokenData"].email
 
-       
-
-        const emailExist = await db.all(`SELECT * FROM users WHERE email = "${email}"`)
+       const emailExist = await db.all(`SELECT * FROM users WHERE email = "${email}"`)
 
         res.send({
+            id: emailExist[0].id,
             nome: emailExist[0].nome,
             email: emailExist[0].email,
             telefone :emailExist[0].telefone,
